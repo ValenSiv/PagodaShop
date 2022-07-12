@@ -1,0 +1,406 @@
+
+.video {
+    text-align: center;
+}
+header{
+	position:relative;
+}
+#logo{
+	font-size:0px;
+	width:63px;
+	height:77px;
+	background-image: url("imagenes/iconod.png");
+	position:absolute;
+	top:8px;
+	left:20px;
+	z-index: 2;
+}
+
+@media screen and (max-width: 991px){
+	#logo{
+		background-image: url("imagenes/iconod2.png");
+		width:30px;
+		height:45px;
+		left: calc(50% - 17px)
+	}
+	
+}
+
+
+footer{
+	background-color: #326A6D;
+}
+
+.asd{
+	display:flex;
+	flex-direction: row;
+	justify-content: space-around;
+	width:20em;
+	margin-left:25em;
+	margin-right:25em;
+	border: solid 2px black;
+}
+
+.liyo{
+	border: solid 2px black;
+	width:10rem;
+}
+
+#ig{
+	display:inline-block;
+	background-image:url("imagenes/instagram.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-bottom:20px;
+	font-size:0px;
+	width:32px;
+	height:32px;
+}
+
+#tw{
+	display:inline-block;
+	background-image:url("imagenes/twitter.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-bottom:20px;
+	font-size:0px;
+	width:32px;
+	height:32px;
+}
+
+#fb{ 
+	display:inline-block;
+	background-image:url("imagenes/facebook.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-bottom:20px;
+	font-size:0px;
+	width:32px;
+	height:32px;
+
+	
+}
+
+
+.pcont{
+	width:360px;
+	margin-left:16px;
+	font-size:16px;
+	font-family: roboto;
+	text-align:center;
+}
+
+.econt input{
+	border: solid 2px grey;
+	outline: none;
+	width:340px;
+	padding:10px;
+	border-radius: 10px;
+	margin-bottom: 5px;
+	margin-left:16px;
+}
+
+.ccont textarea{
+	resize: none;
+	outline:none;
+	height:150px;
+	width:355px;
+	border: solid 2px grey;
+	border-radius: 10px;
+	margin-left:16px;
+}
+
+.submit input{
+	border:solid 2px black;
+	border-radius: 10px;
+	padding:10px;
+	background-color:black;
+	color:white;
+	margin-left:300px;
+	border-radius: 10px;
+	padding:10px;
+	background-color:black;
+	color:white;
+	margin-left:16px;
+}
+
+.pform{
+	display:inline-block;
+	font-size:14px;
+	margin-top:0px;
+	width:650px;
+	margin-left:20px;
+}
+
+.contaccto{
+	
+	height: 600px;
+}
+
+.form-control{
+	resize:none;
+}
+
+
+ul{
+	list-style: none;
+}
+
+.centrado{
+	text-align:  center;
+}
+
+.abc{
+	
+	border-radius:20px;
+	padding:2rem;
+	background-color: #ECC792;
+	
+}
+
+.fotos{
+	margin-top: 2rem;
+	margin-bottom: 2rem;;
+}
+
+@media screen and (max-width: 767px){
+	.fotoss{ 
+		width: 16rem;
+	}
+	.metales{
+		width: 16rem;
+	}
+}
+
+.card{
+	padding-top: 1rem;
+	background-color: #F2D3AA;
+	width: 15rem;
+    margin: 1rem;
+    box-shadow: 2px 2px 12px 0px #88888842;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+
+
+
+.cards{
+	flex-wrap:wrap;
+	display: flex;
+	justify-content: center;
+}
+
+#trabajo{
+	background-color: #326A6D;
+	padding: 2rem;
+	margin-bottom:5rem;
+}
+
+/* Contacto */
+.contacto{
+	max-width: 800px;
+	margin: 50px auto;
+	position: relative;
+	box-shadow: 0 10px 30px 0px rgba(0,0,0,0.1);
+	padding:30px;
+	background-color: white;
+}
+
+.contacto .title{
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: 3px;
+	font-size: 3em;
+	line-height: 48px;
+	padding: 10px;
+	color: #4d4d4d;
+	background: linear-gradient(to right, #ffffff 0%, #326A6D 100%);
+	box-shadow: 0 4px 4px 0px #326A6D;
+	background-clip: text;
+	margin-bottom: 1rem;
+}
+
+.contacto p {
+	font-size: 1.25rem;
+}
+
+.contacto-form .form-field{
+	position: relative;
+	margin: 32px 0;
+}
+
+.contacto-form .input-text{
+	display: block;
+	width: 95%;
+	height: 36px;
+	font-size:18px;
+	line-height:26px;
+	font-weight: 400;
+	box-shadow: 0 4px 4px 0px #326A6D;
+	border-width: 0 0 2px 0;
+	border-color: #326A6D;
+}
+
+.contacto-form .input-text:focus{
+	outline:none;
+}
+
+.contacto-form .label{
+	position:absolute;
+	left: 20px;
+	bottom: 7.5px;
+	font-size: 18px;
+	line-height: 26px;
+	font-weight: 400;
+	opacity: 0%;
+}
+
+.contacto-form .submit-btn{
+	display: inline-block;
+	color: #4d4d4d;
+	background: linear-gradient(to right, #ffffff 0%, #326A6D);
+	box-shadow: 0 4px 4px 0px #326A6D;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 16px;
+	padding: 8px 16px;
+	border: none;
+	width: 200px;
+	cursor: pointer;
+}
+
+.texto_contacto{
+	text-align: center;
+}
+
+
+
+
+/*-------------------------VALEN---------------------*/
+
+.estilos_card {
+	width: 18rem!important;
+	height: 26rem;
+}
+
+/* tienda */
+
+.titulo_tienda {
+	background-color: #326A6D;
+	color: white;
+	height: 2.5rem;
+	margin-top:2rem;
+}
+
+button {
+ background-color: #326A6D;
+ border-radius: 5px;
+ font-weight: 500;
+ border-style: none;
+ padding: 0.4em 0.7em 0.4em 0.7em;
+ color: white;
+}
+
+.boton_js:hover {
+	background-color: #326A6D;
+	transition: 0.2s;
+}
+
+
+.a {
+ width: 300px;
+ height: 420px;
+ background-color: rgb(255, 255, 255);
+ margin: 30px;
+ border-radius: 10px;
+ box-shadow: 0px 0px 8px 2px rgba(119, 119, 119, 0.144);
+}
+
+button.comprar {
+ margin: auto;
+ display: block;
+ margin-top: 1rem;
+ border-radius: 5px;
+ font-weight: 500;
+ color: white;
+}
+
+.comprar_link:hover {
+ color: rgb(255, 255, 255);
+}
+
+.comprar_link {
+ color: rgb(255, 255, 255);
+ text-decoration: none;
+}
+
+.imagen_card {
+ width: 14em;
+}
+
+.precio {
+ font-weight: bold;
+ font-size: 1.15rem;
+ display: flex;
+ justify-content: center;
+}
+
+textarea.desc {
+ color: #919191;
+}
+
+.card {
+	width: 15rem;
+	margin: 1rem;
+	box-shadow: 2px 2px 12px 0px #88888842;
+	margin-top: 1rem;
+	margin-bottom: 2rem;
+}
+
+.producto {
+	display: flex;
+	justify-content: center;
+}
+
+.icono_carrito {
+	position: fixed;
+}
+
+/* componentes tienda */
+
+#items {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	width: 70rem;
+	border-radius: 10px;
+	margin-bottom: 3rem;
+}
+
+#carrito {
+	font-size: 1.25rem;
+	background-color: white;
+	height: 18rem;
+	list-style: none;
+	width: 60%;
+	margin-bottom: 1rem;
+	padding-left: 0.5rem;
+	margin: auto;
+	border-radius: 7px 7px 0px 0px;
+	box-shadow: 0px 0px 8px 2px rgba(119, 119, 119, 0.144);
+}
+
+#total {
+	font-size: 1.35rem;
+	box-shadow: 0px 0px 8px 2px rgba(119, 119, 119, 0.144);
+	background-color: white;
+	height: 3rem;
+	list-style: none;
+	width: 60%;
+	margin-bottom: 1rem;
+	border-radius: 0px 0px 7px 7px;
+	margin: auto;
+	padding-bottom: 1rem;
+	padding-left: 0.5rem;
+}
