@@ -1,66 +1,66 @@
 const productos = [
 	{
 			id: 1,
-			nombre: 'Camiseta Boca Juniors 1970',
-			descripcion: 'Camiseta retro titular temporada 1970 con escudo',
+			nombre: 'Anillo Solitario Corona',
+			descripcion: 'Anillo Brillante Rosa Recubrimiento en Oro Rosa de 14k',
 			precio: 3000,
 			imagen: './imagenes/anillo1.png'
 	},
 	{
 			id: 2,
-			nombre: 'Camiseta Boca Juniors 1981',
-			descripcion: 'Camiseta retro Diego Armando Maradona temporada 1981',
+			nombre: 'Anillo Oro 14K ',
+			descripcion: 'Anillo de oro cuadrado con halo brillante',
 			precio: 3400,
 			imagen: './imagenes/anillo2.png'
 	},
 	{
 			id: 3,
-			nombre: 'Camiseta Boca Juniors 1991',
-			descripcion: 'Camiseta retro suplente Fiat temporada 1991',
+			nombre: 'Anillo redondo con halo brillante',
+			descripcion: 'Anillo redondo de plata con halo brillante',
 			precio: 4900,
 			imagen: './imagenes/anillo3.png'
 	},
 	{
 			id: 4,
-			nombre: 'Camiseta Boca Juniors 1987',
-			descripcion: 'Camiseta retro suplente Parmalat edicion 1987',
+			nombre: 'Anillo Banda Triple Resplandeciente',
+			descripcion: 'Anillo Banda Triple de plata con diamantes',
 			precio: 4000,
-			imagen: './imagenes/anillo3.png'
+			imagen: './imagenes/anillo4.png'
 	},
 	{
 			id: 5,
-			nombre: 'Camiseta Boca Juniors 1975',
-			descripcion: 'Camiseta retro Chapa Suñe temporada 1975',
+			nombre: 'Anillo Solitario Corazón',
+			descripcion: 'Anillo de plata Solitario Corazón Resplandeciente',
 			precio: 5000,
-			imagen: './imagenes/anillo3.png'
+			imagen: './imagenes/anillo5.png'
 	},
 	{
 			id: 6,
-			nombre: 'Camiseta Boca Juniors 1994',
-			descripcion: 'Camiseta retro titular Parmalat temporada 1994',
+			nombre: 'Anillo Minnie Mouse De Disney',
+			descripcion: 'Anillo Cabeza Reluciente Minnie Mouse De Disney',
 			precio: 6200,
-			imagen: './imagenes/anillo3.png'
+			imagen: './imagenes/anillo6.png'
 	},
 	{
 			id: 7,
-			nombre: 'Camiseta Boca Juniors 1985',
-			descripcion: 'Camiseta retro titular Adidas temporada 1985',
+			nombre: 'Anillo de banda triple cruzado',
+			descripcion: 'Anillo de banda triple cruzado Recubrimiento en Oro Rosa de 14k',
 			precio: 5400,
-			imagen: './imagenes/anillo3.png'
+			imagen: './imagenes/anillo7.png'
 	},
 	{
 			id: 8,
-			nombre: 'Camiseta Boca Juniors 2000',
-			descripcion: 'Camiseta retro suplente temporada 2000',
+			nombre: 'Anillo con halo brillante',
+			descripcion: 'Anillo con halo brillante en forma de gota',
 			precio: 4800,
-			imagen: './imagenes/anillo3.png'
+			imagen: './imagenes/anillo8.png'
 	},
 	{
 			id: 9,
-			nombre: 'Camiseta Boca Juniors 2004',
-			descripcion: 'Camiseta retro alternativa Megatone blanca temporada 2004',
+			nombre: 'Anillo Círculo clásico',
+			descripcion: 'Anillo Círculo clásico Recubrimiento en Oro Rosa de 14k',
 			precio: 6000,
-			imagen: './imagenes/anillo3.png'
+			imagen: './imagenes/anillo9.png'
 	}
 	
 ]

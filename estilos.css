@@ -183,7 +183,9 @@ ul{
 }
 
 
-
+.finalizar{
+	background-color:#326A6D;
+}
 
 .cards{
 	flex-wrap:wrap;
@@ -194,7 +196,14 @@ ul{
 #trabajo{
 	background-color: #326A6D;
 	padding: 2rem;
-	margin-bottom:5rem;
+}
+
+.trabajoh{
+	color:white;
+}
+
+.trabajop{
+	color:white;
 }
 
 /* Contacto */
@@ -324,6 +333,7 @@ button.comprar {
  border-radius: 5px;
  font-weight: 500;
  color: white;
+ background-color:#326A6D;
 }
 
 .comprar_link:hover {
@@ -363,6 +373,15 @@ textarea.desc {
 	justify-content: center;
 }
 
+.comprar{
+
+	background-color:#326A6D;
+}
+.productos{
+	margin-bottom: 3rem;
+	background-color:#326A6D;
+	border:none;
+}
 .icono_carrito {
 	position: fixed;
 }
